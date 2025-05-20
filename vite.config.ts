@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
   ],
+  base: process.env.VITE_BASE_PATH || "/radiiant", 
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
