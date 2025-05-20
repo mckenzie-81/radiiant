@@ -89,7 +89,7 @@ const ContactInfo = () => {
           <div>
             <h4 className="text-navy font-medium mb-1">Phone</h4>
             <a href="tel:+233501234567" className="text-indigo hover:text-navy transition-colors duration-300 underline-animated">
-              +233 50 123 4567
+              +233 54 387 6146
             </a>
           </div>
         </motion.div>
