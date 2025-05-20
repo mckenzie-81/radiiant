@@ -18,8 +18,8 @@ const Logo: React.FC<LogoProps> = ({
 }) => {
   const rippleRef = useRef<SVGCircleElement>(null);
   const logoSrc = variant === 'dark' 
-    ? "public/dark-mode-logo-nobg.png" 
-    : "public/light-mode-nobg.png";
+    ? "/dark-mode-logo-nobg.png" 
+    : "/light-mode-nobg.png";
   
   useEffect(() => {
     if (animate && rippleRef.current) {
