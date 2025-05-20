@@ -54,21 +54,21 @@ const TechItem: React.FC<TechItemProps> = ({ name, description, logo, index }) =
 
 const TechStack: React.FC = () => {
   const techItems = [
-    { name: "Python", description: "Backend logic & automation", logo: "public/assets/logos/python-original.svg" },
-    { name: "JavaScript", description: "Frontend interaction & dynamic UIs", logo: "public/assets/logos/javascript-original.svg" },
-    { name: "React", description: "Component-based UI development", logo: "public/assets/logos/react-original.svg" },
-    { name: "Tailwind CSS", description: "Utility-first styling framework", logo: "public/assets/logos/Tailwind_CSS_Logo.svg.png" },
-    { name: "Django", description: "Production-grade Python framework", logo: "public/assets/logos/django-plain.svg" },
-    { name: "PostgreSQL", description: "Reliable relational database", logo: "public/assets/logos/postgresql-original.svg" },
-    { name: "MongoDB", description: "Flexible document database", logo: "public/assets/logos/mongodb-original.svg" },
-    { name: "Docker", description: "Containerized deployments", logo: "public/assets/logos/docker-original.svg" },
-    { name: "VS Code", description: "Modern code editing", logo: "public/assets/logos/vscode-original.svg" },
-    { name: "Cursor", description: "AI-powered development", logo: "public/assets/logos/cursor.svg" },
-    { name: "Paystack", description: "African payment processing", logo: "public/assets/logos/Paystack-mark-white-twitter.png" },
-    { name: "Google Sheets", description: "Connected spreadsheet systems", logo: "public/assets/logos/Google_Sheets_logo_(2014-2020).svg.png" },
-    { name: "Zapier", description: "No-code workflow automation", logo: "public/assets/logos/zapier-icon-svgrepo-com.svg" },
-    { name: "Mikrotik", description: "ISP network infrastructure", logo: "public/assets/logos/MikroTik_logo.svg.png" },
-    { name: "Google Cloud", description: "simplifies the complexities of development.", logo: "public/assets/logos/google_cloud-icon.svg" } // Placeholder, use appropriate logo
+    { name: "Python", description: "Backend logic & automation", logo: "/python-original.svg" },
+    { name: "JavaScript", description: "Frontend interaction & dynamic UIs", logo: "/javascript-original.svg" },
+    { name: "React", description: "Component-based UI development", logo: "/react-original.svg" },
+    { name: "Tailwind CSS", description: "Utility-first styling framework", logo: "/Tailwind_CSS_Logo.svg.png" },
+    { name: "Django", description: "Production-grade Python framework", logo: "/django-plain.svg" },
+    { name: "PostgreSQL", description: "Reliable relational database", logo: "/postgresql-original.svg" },
+    { name: "MongoDB", description: "Flexible document database", logo: "/mongodb-original.svg" },
+    { name: "Docker", description: "Containerized deployments", logo: "/docker-original.svg" },
+    { name: "VS Code", description: "Modern code editing", logo: "/vscode-original.svg" },
+    { name: "Cursor", description: "AI-powered development", logo: "/cursor.svg" },
+    { name: "Paystack", description: "African payment processing", logo: "/Paystack-mark-white-twitter.png" },
+    { name: "Google Sheets", description: "Connected spreadsheet systems", logo: "/Google_Sheets_logo_(2014-2020).svg.png" },
+    { name: "Zapier", description: "No-code workflow automation", logo: "/zapier-icon-svgrepo-com.svg" },
+    { name: "Mikrotik", description: "ISP network infrastructure", logo: "/MikroTik_logo.svg.png" },
+    { name: "Google Cloud", description: "simplifies the complexities of development.", logo: "/google_cloud-icon.svg" } // Placeholder, use appropriate logo
   ];
 
   return (
