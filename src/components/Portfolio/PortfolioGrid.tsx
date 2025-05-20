@@ -18,7 +18,7 @@ const portfolioProjects = [
     status: "Live → pentagonwifi-connect.vercel.app",
     isDark: true,
     link: "https://pentagonwifi-connect.vercel.app",
-    logo: "/logos/pentagon.svg", // Placeholder path
+    logo: "public/assets/logos/pentagon-wifi-logo.png", // Placeholder path
     categories: ["ISP", "Automation"]
   },
   {
@@ -26,12 +26,12 @@ const portfolioProjects = [
     name: "ROC International",
     type: "Corporate Website",
     tech: "Webflow, Custom CMS",
-    summary: "Designed an investor-ready brand website for an investment company, with secure data rooms and pitch asset delivery.",
+    summary: "Designed an investor-ready brand website for roc.",
     outcome: "3x increase in qualified leads",
     status: "Live → rocinternational.org",
-    isDark: false,
+    isDark: null, 
     link: "https://rocinternational.org",
-    logo: "/logos/roc.svg", // Placeholder path
+    logo: "public/assets/logos/roc-logo.png", // Placeholder path
     categories: ["Corporate", "Finance"]
   },
   {
@@ -53,7 +53,7 @@ const portfolioProjects = [
     summary: "Delivered a modern visual identity and full menu-based website concept for a leading African restaurant.",
     outcome: "Design system for future digital products",
     isDark: false,
-    logo: "/logos/adakings.svg", // Placeholder path
+    logo: "public/assets/logos/adakings.png", // Placeholder path
     categories: ["Hospitality", "Design"]
   },
   {
@@ -64,7 +64,7 @@ const portfolioProjects = [
     summary: "Automated the workflow and client job intake process for a commercial print studio using scalable no-code systems.",
     outcome: "70% reduced client wait time",
     isDark: true,
-    logo: "/logos/printloop.svg", // Placeholder path
+    logo: "public/assets/logos/Printloop.PNG", // Placeholder path
     categories: ["Custom Platforms"]
   },
   {
@@ -74,7 +74,7 @@ const portfolioProjects = [
     summary: "Worked with the team to digitize customer acquisition processes and reduce onboarding time by over 40%.",
     outcome: "40% faster client acquisition",
     isDark: false,
-    logo: "/logos/softron.svg", // Placeholder path
+    logo: "public/assets/logos/Softron.PNG", // Placeholder path
     categories: ["Consulting", "Fintech"]
   },
   // {

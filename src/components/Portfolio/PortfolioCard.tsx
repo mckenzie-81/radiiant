@@ -68,7 +68,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ project }) => {
           onClick={handleCardClick}
           className={cn(
             "group relative overflow-hidden h-full transition-all duration-300 cursor-pointer",
-            project.isDark ? "bg-navy text-white" : "bg-white text-navy"
+            project.isDark ? "bg-stone-300 text-white" : "bg-white text-navy"
           )}
         >
           {/* Visual thumbnail/mockup background */}
@@ -99,7 +99,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ project }) => {
                 <img 
                   src={project.logo} 
                   alt={`${project.name} logo`} 
-                  className="w-6 h-6 object-contain"
+                  className=" h-6 object-contain"
                 />
               ) : (
                 <span className="text-2xl font-bold">{project.name.charAt(0)}</span>
@@ -130,11 +130,12 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ project }) => {
 
             {/* Project name */}
             <h3 className="text-xl font-display font-semibold mt-1 mb-3">{project.name}</h3>
+            {/* <img src={project.logo} alt={`${project.name} logo`} className="" /> */}
 
             {/* Tech stack (if available) */}
             {project.tech && (
               <p className={cn(
-                "text-sm font-medium mb-3",
+                "text-sm font-medium mb-",
                 project.isDark ? "text-white/70" : "text-navy/70"
               )}>
                 {project.tech}
