@@ -1,0 +1,105 @@
+{
+    "home": {
+      "title": "RADIIANT — SaaS Tools Built for African Growth",
+      "description": "RADIIANT provides premium SaaS infrastructure for startups, SMEs, and enterprises across Africa. From CRM and POS systems to automation and APIs — built to scale your vision.",
+      "keywords": [
+        "SaaS for African startups",
+        "Business software Africa",
+        "POS systems Ghana",
+        "CRM for SMEs",
+        "Enterprise automation tools",
+        "RADIIANT SaaS platform",
+        "Best saas company in Ghana",
+        "SaaS tools for African businesses",
+        "Custom software development Africa",
+        "Business automation solutions",
+        "API reselling platforms",
+        "Point-of-sale software Africa",
+        "CRM platforms Africa",
+        "Custom SaaS development",
+        "Business automation services",
+        "Tech agency projects",
+        "SaaS portfolio Africa",
+        "Website design for businesses",
+        "Smart business systems Ghana",
+        "RADIIANT client showcase",
+        "RADIIANT about page",
+        "African SaaS story",
+        "Tech for growth"
+      ]
+    },
+    "services": {
+      "title": "Our Services — Smart Digital Tools for Growing Businesses | RADIIANT",
+      "description": "Explore RADIIANT’s suite of intelligent tools — including CRM, APIs, POS systems, and custom software development — made for African innovators.",
+      "keywords": [
+        "CRM platforms Africa",
+        "API reselling tools",
+        "Business automation services",
+        "Point-of-sale software Africa",
+        "Custom SaaS development"
+      ]
+    },
+    "portfolio": {
+      "title": "Our Portfolio — Real Results for Real Businesses | RADIIANT",
+      "description": "From ISPs and restaurants to fintechs and retail, RADIIANT has built platforms that transform. View our live client work and case studies.",
+      "keywords": [
+        "SaaS portfolio Africa",
+        "Tech agency projects",
+        "RADIIANT client showcase",
+        "Website design for businesses",
+        "Smart business systems Ghana"
+      ]
+    },
+    "about": {
+      "title": "About RADIIANT — Empowering Digital Growth in Africa",
+      "description": "Our mission is to digitize and empower African businesses through smart, scalable tools. Learn about our journey, vision, and the tech we use.",
+      "keywords": [
+        "RADIIANT about page",
+        "African SaaS story",
+        "Tech for growth",
+        "SaaS in Africa",
+        "RADIIANT values"
+      ]
+    },
+    "request": {
+      "title": "Start Your Project — Request a Custom Solution | RADIIANT",
+      "description": "Tell us what your business needs — and let’s build it. RADIIANT specializes in building scalable tools to fit your exact model.",
+      "keywords": [
+        "Request SaaS solution",
+        "Custom software Africa",
+        "Business automation request",
+        "RADIIANT project start",
+        "CRM and POS inquiry"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us — Let’s Build Together | RADIIANT",
+      "description": "Have a question or ready to work with us? Reach out — RADIIANT is here to support your growth through technology.",
+      "keywords": [
+        "Contact RADIIANT",
+        "Business inquiries",
+        "Tech partnership Africa",
+        "Support for SaaS tools",
+        "CRM support Ghana"
+      ]
+    }
+    ,
+
+    "blog": {
+      "title": "RADIIANT Blog — Insights on SaaS, Tech, and Growth in Africa",
+      "description": "Stay updated with the latest trends, tips, and insights on SaaS, technology, and business growth in Africa. Join the conversation.",
+      "keywords": [
+        "SaaS blog Africa",
+        "Tech insights Ghana",
+        "Business growth tips",
+        "RADIIANT blog",
+        "Digital transformation Africa"
+      ]
+    },
+    "blog_post": {
+      "title": "{{title}} — RADIIANT Blog",
+      "description": "{{description}}",
+      "keywords": [
+        "{{keywords}}"
+      ]
+    }}
