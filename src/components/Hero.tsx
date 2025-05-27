@@ -114,10 +114,15 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.7, delay: 0.8, ease: "easeOut" }}
           className="mt-16 text-navy/70"
         >
-          <button onClick={scrollToNextSection} className="flex flex-col items-center group">
-            <span className="mb-2 text-sm">See how we do it</span>
-            <ChevronDown className="animate-bounce h-5 w-5 group-hover:text-indigo transition-colors" />
-          </button>
+          <div className="flex justify-center">
+            <button
+              onClick={scrollToNextSection}
+              className="flex flex-col items-center group my-11 "
+            >
+              <span className="mb-2 text-lg md:text-2xl lg:text-lg xl:text-lg 2xl:text-lg  ">See how we do it</span>
+              <ChevronDown className="animate-bounce h-5 w-5 group-hover:text-indigo transition-colors" />
+            </button>
+          </div>
         </motion.div>
       </div>
     </div>
