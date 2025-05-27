@@ -30,13 +30,13 @@ const Navbar: React.FC = () => {
 
   return (
     <header 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-content flex items-center justify-between">
-        <Link to="/" className="flex items-center">
-          <Logo variant="light" height={100}/>
+      <div className="max-w-content flex items-center justify-between ">
+        <Link to="/" className="flex items-center my-8">
+          <Logo variant="light" height={25}/>
         </Link>
 
         {/* Desktop Navigation */}

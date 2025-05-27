@@ -46,7 +46,10 @@ const Vision = () => {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Logo />
+            <div className="w-16 h-30 ">
+              <img src="/light-mode-nobg1.png"/>
+            </div>
+            
           </motion.div>
         </div>
         
