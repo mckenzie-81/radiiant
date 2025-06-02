@@ -8,7 +8,7 @@ import PortfolioCTA from '@/components/Portfolio/PortfolioCTA';
 
 const Portfolio = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-softBlue">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-softBlue to-navy ">
       <Navbar />
       
       <main className="flex-grow pt-24 pb-16">
