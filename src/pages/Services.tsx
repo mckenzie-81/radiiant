@@ -217,12 +217,7 @@ const services = [
   },
   {
     title: "Web Development",
-    description: "custom website building",
-    icon: <ServiceIcon3 />
-  },
-  {
-    title: "Web Development (CRM)",
-    description: "Centralize client data, engagement, and analytics. Build stronger relationships and convert leads with smarter segmentation.",
+    description: "update content later with better descriptions",
     icon: <ServiceIcon2 />
   },
   {
