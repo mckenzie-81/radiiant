@@ -36,16 +36,16 @@ const Hero: React.FC = () => {
   return (
     <div
       ref={heroRef}
-      // className=" min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-softBlue to-white"
-      className=" min-h-screen flex items-center justify-center overflow-hidden"
+      className=" min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-softBlue to-navy relative z-10"
+      // className=" min-h-screen flex items-center justify-center overflow-hidden"
 
     >
       {/* Background Image Layer */}
-      <div className="absolute inset-2 flex items-center justify-center pointer-events-none z-0 mb-4">
+      <div className="absolute inset-2 flex items-center justify-center pointer-events-none z-0 mb-40">
         <img
           src="/blackdotedback.svg"
           alt="dot pattern"
-          className="w-[1000px] max-w-full opacity-15 blur-none"
+          className="w-[1100px] max-w-full opacity-20 blur-none"
           style={{
             maskImage:
               "radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 50%)",
