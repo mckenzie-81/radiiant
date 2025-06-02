@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Content container */}
-      <div className="max-w-content relative z-10 text-center px-4 mt-10">
+      <div className="max-w-content relative z-10 text-center px-4 mb-20">
         {/* <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -83,12 +83,13 @@ const Hero: React.FC = () => {
         </motion.div> */}
 
         <motion.h1
-          className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 tracking-tight text-navy"
+        // optiimize text sizes on other screens -lg changes from 7xl to 6xl
+          className="text-4xl md:text-6xl lg:text-6xl font-display font-bold mb-6 tracking-tight text-navy"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 30 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          Powering the next generation of{" "}
+          Powering the next generation <p></p> of{" "}
           <span className="text-gradient">African business.</span>
         </motion.h1>
 
@@ -96,7 +97,7 @@ const Hero: React.FC = () => {
           className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 30 }}
-          transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
+          transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
         >
           Intelligent tools to automate, manage, and scale the future of African
           business.
