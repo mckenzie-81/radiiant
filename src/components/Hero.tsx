@@ -36,8 +36,25 @@ const Hero: React.FC = () => {
   return (
     <div
       ref={heroRef}
-      className=" min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-softBlue to-white "
+      // className=" min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-softBlue to-white"
+      className=" min-h-screen flex items-center justify-center overflow-hidden"
+
     >
+      {/* Background Image Layer */}
+      <div className="absolute inset-2 flex items-center justify-center pointer-events-none z-0 mb-4">
+        <img
+          src="/blackdotedback.svg"
+          alt="dot pattern"
+          className="w-[1000px] max-w-full opacity-15 blur-none"
+          style={{
+            maskImage:
+              "radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 50%)",
+            WebkitMaskImage:
+              "radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 50%)",
+          }}
+        />
+      </div>     
+
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div

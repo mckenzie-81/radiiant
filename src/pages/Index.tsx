@@ -74,11 +74,13 @@ const Index: React.FC = () => {
     },
     {
       title: "SMS Campaign Platform",
+      // change to AI integration - when content is set
       description: "Engage your audience with our powerful, scalable messaging solutions designed for the African market.",
       icon: <ServiceIcon3 />
     },
     {
-      title: "Data Provisioning APIs",
+      title: "Data Provisioning APIs", 
+      // change to  SEO management - when content is set
       description: "Seamless integration with third-party services through robust, well-documented APIs.",
       icon: <ServiceIcon4 />
     },
@@ -89,6 +91,7 @@ const Index: React.FC = () => {
     },
     {
       title: "POS Infrastructure",
+      // change to automation services - when content is set
       description: "Modern point-of-sale systems with inventory management and sales analytics built in.",
       icon: <ServiceIcon6 />
     },
