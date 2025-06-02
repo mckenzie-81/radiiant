@@ -81,7 +81,7 @@ const CallToActionDark: React.FC = () => {
                 asChild
                 size="lg" 
                 variant="outline"
-                className="border-white text-white hover:bg-white/10 text-lg px-8 py-6 rounded-md"
+                className="border-white text-black hover:bg-white/10 text-lg px-8 py-6 rounded-md"
               >
                 <Link to="/contact">
                   Talk to Our Team

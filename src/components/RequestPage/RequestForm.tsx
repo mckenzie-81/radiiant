@@ -104,7 +104,7 @@ const RequestForm: React.FC = () => {
           >
             <option value="" disabled>Select a service</option>
             <option value="Business Management Systems">Business Management Systems</option>
-            <option value="Customer Intelligence (CRM)">Customer Intelligence (CRM)</option>
+            <option value="Web Development (Custom Website)"> (Custom Website) (CRM)</option>
             <option value="SMS Campaign Platform">SMS Campaign Platform</option>
             <option value="Data Provisioning APIs">Data Provisioning APIs</option>
             <option value="Custom Platforms">Custom Platforms</option>

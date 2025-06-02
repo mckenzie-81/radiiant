@@ -221,7 +221,7 @@ const services = [
     icon: <ServiceIcon3 />
   },
   {
-    title: "Customer Intelligence (CRM)",
+    title: "Web Development (CRM)",
     description: "Centralize client data, engagement, and analytics. Build stronger relationships and convert leads with smarter segmentation.",
     icon: <ServiceIcon2 />
   },

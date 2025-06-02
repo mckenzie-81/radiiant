@@ -14,9 +14,9 @@ const ContactHero = () => {
           className="text-center mb-6 relative"
         >
           {/* Animated Logo with ripple effect - Increased size */}
-          <div>
+          {/* <div>
             <Logo animate={true} variant="light" />
-          </div>
+          </div> */}
           
           <motion.h1 
             className="text-4xl md:text-5xl lg:text-6xl font-display text-navy leading-tight"

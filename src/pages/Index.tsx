@@ -68,7 +68,7 @@ const Index: React.FC = () => {
       icon: <ServiceIcon1 />
     },
     {
-      title: "Customer Intelligence (CRM)",
+      title: "Web Development (CRM)",
       description: "Build deeper relationships with sophisticated customer management and analytics tools.",
       icon: <ServiceIcon2 />
     },
