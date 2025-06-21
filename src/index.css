@@ -186,3 +186,7 @@
     }
   }
 }
+
+.clip-diagonal {
+  clip-path: polygon(0 70%, 100% 30%, 100% 100%, 0 100%);
+}

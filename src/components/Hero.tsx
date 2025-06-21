@@ -1,24 +1,29 @@
 import React from "react";
+import AnimatedGradient from "./AnimatedGradient";
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full min-h-screen bg-gradient-to-br from-[#e0c3fc] via-[#8ec5fc] to-[#e0c3fc] overflow-hidden">
-      {/* Overlay diagonal effect */}
-      <div className="absolute inset-0 z-0 clip-diagonal bg-white opacity-90"></div>
+    <section className="relative w-full min-h-screen overflow-hidden">
+      {/* Animated background canvas */}
+      
+      <AnimatedGradient />
 
+      {/* Diagonal overlay to separate layout visually */}
+      <div className="absolute inset-0 bg-gray-500 clip-diagonal z-0" />
+
+      {/* Content container */}
       <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-24 gap-12">
-        {/* Left side — text */}
+        {/* Text area */}
         <div className="text-center lg:text-left max-w-xl">
           <h1 className="text-4xl md:text-6xl font-bold text-navy mb-6 leading-tight">
-          Digital    <br className="hidden md:block" />
-          infrastructure {" "}
-          to grow your
+            Digital <br className="hidden md:block" />
+            infrastructure to grow your{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">
-             business
+              business
             </span>
           </h1>
-          <p className="text-lg text-gray-700 mb-8 text-left ">
-          Web. SEO. AI. BMS. Everything you need to scale.
+          <p className="text-lg text-gray-700 mb-8 text-left">
+            Web. SEO. AI. BMS. Everything you need to scale.
           </p>
 
           {/* CTA */}
@@ -34,13 +39,13 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Right side — placeholder illustration */}
+        {/* Hero illustration */}
         <div className="w-full max-w-md hidden lg:block">
-          <div className="bg-white rounded-xl shadow-xl p-6">
-            <div className="w-full h-64 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400">
-              Illustration Placeholder
-            </div>
-          </div>
+          <img
+            src="/herovect.png"
+            alt="Hero Illustration"
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </section>
