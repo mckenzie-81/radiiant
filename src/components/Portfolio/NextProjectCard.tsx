@@ -26,7 +26,7 @@ const NextProjectCard: React.FC = () => {
         transition={{ duration: 0.3 }}
         className="h-full"
       >
-        <Card className="relative overflow-hidden h-full border-2 border-indigo/30 group transition-all duration-300">
+        <Card className="relative overflow-hidden h-full border-1 border-indigo/30 group transition-all duration-300">
           {/* Glow effect */}
           <div className="absolute inset-0 bg-gradient-to-br from-indigo/5 via-cyan/5 to-amber/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           
