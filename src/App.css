@@ -41,6 +41,14 @@
   color: #888;
 }
 
+
+/* Default slant for large screens */
 .clip-diagonal {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+/* Different slant or no slant on mobile */
+@media (max-width: 768px) {
+  .clip-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
 }
