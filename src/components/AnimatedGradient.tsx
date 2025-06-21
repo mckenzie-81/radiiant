@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { WaveGradient } from "wave-gradient";
+import { WaveGradient } from "wave-gradient-mckenzie";
 
 const AnimatedGradient: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
