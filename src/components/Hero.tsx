@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <AnimatedGradient />
 
       {/* Diagonal overlay to separate layout visually */}
-      <div className="absolute inset-0 bg-gray-500 clip-diagonal z-0" />
+      <div className="absolute inset-0 bg-white clip-diagonal z-0 bg-blend-multiply" />
       {/* Content container */}
       <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-24 gap-12">
         {/* Text area */}
