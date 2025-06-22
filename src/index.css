@@ -194,6 +194,6 @@
 /* Different slant or no slant on mobile */
 @media (max-width: 768px) {
   .clip-diagonal {
-    clip-path: polygon(0 45%, 100% 33%, 100% 100%, 0 100%);
+    clip-path: polygon(0 60%, 100% 48%, 100% 100%, 0 100%);
   }
 }
