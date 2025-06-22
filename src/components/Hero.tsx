@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       {/* Content container */}
       <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-24 gap-12">
         {/* Text area */}
-        <div className="text-center lg:text-left max-w-xl">
+        <div className="font-grotesk text-center lg:text-left max-w-xl">
           <h1 className="text-4xl md:text-6xl font-bold text-navy mb-6 leading-tight text-left">
             Digital <br className="hidden md:block" />
             infrastructure to grow your{" "}
