@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="absolute top-0 left-0 w-full z-30 px-8 py-6 bg-transparent">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <header className="absolute top-0 left-0 w-full z-30  py-6 bg-transparent">
+      <div className="px-12 max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center my-1">
           <Logo variant="light" height={25} />
         </Link>
