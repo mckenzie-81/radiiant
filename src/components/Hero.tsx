@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Hero illustration */}
-        <div className="max-w-2xl hidden lg:block ">
+        <div className="max-w-4xl hidden lg:block ">
           <img
             src="/sectionpng.png"
             alt="Hero Illustration"
